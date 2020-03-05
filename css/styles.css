@@ -1,5 +1,5 @@
-body {
-    background-color: blueviolet;
+.support-body {
+    background-color: bluevolet;
     overflow-x: hidden;
   }
   
@@ -29,7 +29,6 @@ body {
     text-decoration: none;
   }
   li a:hover {
-    background-color: blueviolet;
     text-decoration: none;
   }
   
@@ -78,6 +77,7 @@ body {
   
    .col-md-6 img {
      border-radius: 20%;
+     border: 5px solid rgb(253, 166, 4);
    }
   
   .footer4 {
