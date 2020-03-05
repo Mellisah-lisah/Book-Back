@@ -1,17 +1,3 @@
-.header1{
-  background-image: url(/images/kenyan-boy.jpg);
-}
-ul {
-  margin-top: 0px;
-  padding-top: 0;
-  list-style: none;
-  float: right;
-  color:maroon;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
 ul{
   list-style-type: none;
   margin: 0;
