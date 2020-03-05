@@ -1,3 +1,4 @@
+
 *{
   box-sizing: border-box;
 }
@@ -166,6 +167,7 @@ a {
 }
 .container h2{
   text-align: center;
+
 }
 .footer4 {
   background-color: #303036 ;
@@ -196,6 +198,10 @@ a {
  text-align: center;
  margin-top: 10px;
 }
+
+#hide{
+  display: none;
+}
 ul{
   list-style-type: none;
   margin: 0;
@@ -214,6 +220,6 @@ li a{
   text-decoration: none;
   font-size: xx-large;
 }
-#hide{
-  display: none;
+li a:hover{
+  text-decoration: none;
 }
