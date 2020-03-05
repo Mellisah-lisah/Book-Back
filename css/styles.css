@@ -3,7 +3,7 @@
     overflow-x: hidden;
   }
   
-  .header {
+  #header {
     background-image: url(https://bookaid.org/wp-content/uploads/2018/01/LATEST-BOTM.jpg);
     background-size: 1500px 600px;
   }
@@ -41,7 +41,7 @@
     color: rgb(253, 166, 4);
   }
   
-  .header p {
+#support {
     padding-bottom: 110px;
     color: rgb(253, 166, 4);
     font-size: 30px;
@@ -53,7 +53,7 @@
     font-family: 'Barlow Condensed';
   }
   
-  .intro h2 {
+  .intro .header {
     font-size: 50px;
   }
   .header1 {
