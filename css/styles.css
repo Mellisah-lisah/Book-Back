@@ -78,9 +78,7 @@ li a:hover{
 #features{
   padding-top: 20px;
 }
-#round{
-  padding-left: px;
-}
+
 #big{
   padding-left: 100px;
 }
@@ -117,3 +115,36 @@ li a:hover{
  text-align: center;
  margin-top: 10px;
 }
+
+  .header {
+    background-image: url(https://bookaid.org/wp-content/uploads/2018/01/LATEST-BOTM.jpg);
+    background-size: 1500px 600px;
+  }
+  .header p {
+    padding-bottom: 110px;
+    color: rgb(253, 166, 4);
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Barlow Condensed';
+  }  
+  .intro {
+    text-align: center;
+    font-family: 'Barlow Condensed';
+  }
+  
+  .intro p {
+    font-size: 30px;
+    color:  rgb(253, 166, 4);
+  }
+  
+  #book-day, #volunteer, #donate, #partner, #change, #fundrising, .volunteer, .partner, .change, .fundrising, .donate, .book-day {
+    margin-left: 200px;
+  }
+   a {
+     text-decoration: none;
+     color: rgb(253, 166, 4);
+   }
+  
+   .col-md-6 img {
+     border-radius: 20%;
+   }
