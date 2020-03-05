@@ -1,17 +1,12 @@
-.header1{
-  background-image: url(/images/kenyan-boy.jpg);
+#whatBody{
+  margin: 0;
+  padding:0;
+  font-family: 'Barlow Condensed';
 }
-ul {
-  margin-top: 0px;
-  padding-top: 0;
-  list-style: none;
-  float: right;
-  color:maroon;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+#whatBody p{
+  font-size: 24px;
 }
+
 ul{
   list-style-type: none;
   margin: 0;
@@ -53,6 +48,63 @@ li a:hover{
 .cards:hover {
   box-shadow: 10px 10px 10px grey;
 }
+
+.image{
+  background-image: url("https://bit.ly/39mdyy9");
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 800px;
+}
+
+#overlay {
+  position: relative;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: white;
+  background-color: rgba(20, 19, 19, 0.5);
+  z-index: 2;
+}
+.overlay h1{
+  padding-top: 200px;
+
+}
+
+#everyone{
+  text-align: center;
+  padding-top: 30px;
+}
+.aim{
+  padding-top: 100px;
+}
+.type{
+  text-align: center;
+  padding-left: 250px;
+  padding-right: 70px;
+  font-size: 25px;
+}
+
+#select{
+  padding-top: 30px;
+  text-align: center;
+}
+#features{
+  padding-top: 20px;
+}
+
+#big{
+  padding-left: 100px;
+}
+#bigi{
+  padding-left: 100px;
+}
+
 .footer4 {
   background-color: #303036 ;
   color: #D3D3D3;
@@ -82,6 +134,7 @@ li a:hover{
  text-align: center;
  margin-top: 10px;
 }
+
 #topic{
   text-align: center;
 }
@@ -119,3 +172,31 @@ li a:hover{
   padding-top: 300px;
   letter-spacing: 5px;
 }
+
+.header {
+  background-image: url(https://bookaid.org/wp-content/uploads/2018/01/LATEST-BOTM.jpg);
+  background-size: 1500px 600px;
+}
+.header p {
+  padding-bottom: 110px;
+  color: rgb(253, 166, 4);
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Barlow Condensed';
+}  
+.intro {
+  text-align: center;
+  font-family: 'Barlow Condensed';
+}
+
+.intro p {
+  font-size: 30px;
+  color:  rgb(253, 166, 4);
+}
+
+#book-day, #volunteer, #donate, #partner, #change, #fundrising, .volunteer, .partner, .change, .fundrising, .donate, .book-day {
+  margin-left: 200px;
+}
+.col-md-6 img {
+   border-radius: 20%;
+ }
