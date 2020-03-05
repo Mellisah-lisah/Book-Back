@@ -56,7 +56,7 @@
   .intro h2 {
     font-size: 50px;
   }
-  h2 {
+  .header1 {
     background: rgb(253, 166, 4);
     margin-right: 600px;
     margin-left: 600px;
@@ -70,7 +70,7 @@
   #book-day, #volunteer, #donate, #partner, #change, #fundrising, .volunteer, .partner, .change, .fundrising, .donate, .book-day {
     margin-left: 200px;
   }
-   a {
+   .img {
      text-decoration: none;
      color: rgb(253, 166, 4);
    }
