@@ -1,48 +1,28 @@
-function openSignIn(){
-  document.getElementById("myForm").style.display="block";
-}
-function closeForm(){
-  document.getElementById("myForm").style.display="none";
-}
 $(document).ready(function(){
-  $(".reg").click(function(){
-    $("#email").toggle("slow");
-    $("#psw").toggle("slow");
-    $("#psw-repeat").toggle("slow");
-    $(".registerbtn").toggle("slow");
-    $(".signin").toggle("slow");
-  });
-});
-$(document).ready(function(){
-  $("button").click( function(){
-$("#hide").show(2000);
+    $("#picture").click(function(){
+      $(this).hide();
+      $("#picture1").show();
+    });
+    $("#picture1").click(function(){
+      $(this).hide();
+      $("#picture").show();
+    });
 
-  });
-});
+    $("#picture2").click(function(){
+        $(this).hide();
+        $("#picture3").show();
+      });
+      $("#picture3").click(function(){
+        $(this).hide();
+        $("#picture2").show();
+      });
 
-// $(document).ready(function(){
-//   $("h2").click(function(){
-//     $("#email").slideDown("slow");
-//     $("#psw").slideDown("slow");
-//     $("#psw-repeat").slideDown("slow");
-//     $(".registerbtn").slideDown("slow");
-//     $(".signin").slideDown("slow");
-//   });
-// });
-function myFunction(){
-  alert("Thank you for your donations");
-}
-$(document).ready(function(){
-  $("h2").click(function(){
-    $(".col-25").toggle();
-    $(".col-75").toggle();
-    $(".row").toggle();
+      $("#picture4").click(function(){
+        $(this).hide();
+        $("#picture5").show();
+      });
+      $("#picture5").click(function(){
+        $(this).hide();
+        $("#picture4").show();
+      });  
   });
-});
-// $(document).ready(function(){
-//   $("h2").click(function(){
-//     $(".col-25").show();
-//     $(".col-75").show();
-//     $(".row").show();
-//   });
-// });
