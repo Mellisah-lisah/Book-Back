@@ -1,10 +1,7 @@
-body{
-  font-family: 'Barlow Condensed';
+.header {
+  background-image: url(https://bookaid.org/wp-content/uploads/2018/01/LATEST-BOTM.jpg);
+  background-size: 1500px 600px;
 }
-*{
-  font-family: 'Barlow Condensed'; 
-}
-
 ul{
   list-style-type: none;
   margin: 0;
@@ -14,6 +11,7 @@ ul{
 }
 li{
   float:left;
+  text-decoration: none;
 }
 li a{
   display: block;
@@ -22,24 +20,71 @@ li a{
   padding: 15px 19px;
   text-decoration: none;
   font-size: xx-large;
-
-}
-li a:hover{
+  font-family: 'Barlow Condensed';
   text-decoration: none;
 }
-.carousel-inner img {
-  background-color: black;
+li a:hover {
+  text-decoration: none;
 }
+
+
+h1 {
+  margin-left: 300px;
+  padding-top: 150px;
+  font-family: 'Barlow Condensed';
+  font-size: 80px;
+  color: rgb(253, 166, 4);
+}
+
+.header p {
+  padding-bottom: 110px;
+  color: rgb(253, 166, 4);
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Barlow Condensed';
+}  
+.intro {
+  text-align: center;
+  font-family: 'Barlow Condensed';
+}
+
+.intro h2 {
+  font-size: 50px;
+}
+h2 {
+  background: rgb(253, 166, 4);
+  margin-right: 600px;
+  margin-left: 600px;
+}
+
+.intro p {
+  font-size: 30px;
+  color:  rgb(253, 166, 4);
+}
+
+#book-day, #volunteer, #donate, #partner, #change, #fundrising, .volunteer, .partner, .change, .fundrising, .donate, .book-day {
+  margin-left: 200px;
+}
+ a {
+   text-decoration: none;
+   color: rgb(253, 166, 4);
+ }
+
+ .col-md-6 img {
+   border-radius: 20%;
+ }
+
 .footer4 {
   background-color: #303036 ;
-  color: #D3D3D3;
+  color: #d3d3d3;
   height: 400px;
   position: relative;
   margin-top: 50px;
   font-family: 'Barlow Condensed';
 }
+
 .footer4 .footer-bottom4 {
-  background-color: #343A40;
+  background-color: #343a40;
   color: #686868;
   height: 50px;
   text-align: center;
@@ -48,14 +93,20 @@ li a:hover{
   left: 0px;
   padding-top: 20px;
   width: 100%;
+ 
 }
-.footer4 .footer-top4 {
+ 
+ 
+.footer4 .footer-top4 { 
  display: flex;
  height: 350px;
 }
+
 .footer4 .footer-top4 h4 {
  flex: 1;
  margin-left: 30px;
  text-align: center;
  margin-top: 10px;
 }
+
+
