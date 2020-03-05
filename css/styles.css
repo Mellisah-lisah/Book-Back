@@ -88,7 +88,7 @@ li a:hover{
     padding-left: 100px;
 }
 
-.footer2 {
+.footer4 {
     background-color: #303036 ;
     color: #D3D3D3;
     height: 400px;
@@ -96,7 +96,7 @@ li a:hover{
     margin-top: 50px;
     font-family: 'Barlow Condensed';
 }
-.footer2 .footer-bottom2 {
+.footer4 .footer-bottom4 {
     background-color: #343A40;
     color: #686868;
     height: 50px;
@@ -107,11 +107,11 @@ li a:hover{
     padding-top: 20px;
     width: 100%;
 }
-.footer2 .footer-top2 {
+.footer4 .footer-top4 {
    display: flex;
    height: 350px;
 }
-.footer2 .footer-top2 h4 {
+.footer4 .footer-top4 h4 {
    flex: 1;
    margin-left: 30px;
    text-align: center;
