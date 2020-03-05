@@ -1,4 +1,4 @@
-body{
+/* body{
     margin: 0;
     padding:0;
     font-family: 'Barlow Condensed';
@@ -116,7 +116,7 @@ li a:hover{
    margin-left: 30px;
    text-align: center;
    margin-top: 10px;
-}
+} */
 body {
     background-color: blueviolet;
     overflow-x: hidden;
