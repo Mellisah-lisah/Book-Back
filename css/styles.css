@@ -231,9 +231,6 @@ li a:hover {
 *{
   box-sizing: border-box;
 }
-table th{
-  border: 1px solid blue;
-}
 input[type=text], select, textarea{
   width: 100%;
   padding: 12px;
