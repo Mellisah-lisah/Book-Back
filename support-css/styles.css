@@ -54,13 +54,20 @@
     font-size: 100px;
     color: rgb(253, 166, 4);
   }
-
+  
+#support {
+    padding-bottom: 110px;
+    color: rgb(253, 166, 4);
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Barlow Condensed';
+  }  
   .support-intro {
     text-align: center;
     font-family: 'Barlow Condensed';
   }
   
-  .support-intro .header {
+  .support-intro .support-header {
     font-size: 50px;
   }
   .support-header1 {
@@ -75,10 +82,10 @@
     color:  rgb(253, 166, 4);
   }
   
-  #book-day, #volunteer, #donate, #partner, #change, #fundrising, .volunteer, .partner, .change, .fundrising, .donate, .book-day {
+  #support-book-day, #support-volunteer, #support-donate, #support-partner, #support-change, #support-fundrising, .support-volunteer, .support-partner, .support-change, .support-fundrising, .support-donate, .support-book-day {
     margin-left: 200px;
   }
-   .img {
+   .support-img, .support-volun, .support-fund, .support-charge, .support-don, .support-part {
      text-decoration: none;
      color: rgb(253, 166, 4);
    }
