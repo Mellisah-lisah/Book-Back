@@ -1,3 +1,31 @@
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+}
+li{
+  float:left;
+  text-decoration: none;
+}
+li a{
+  display: block;
+  color:#ff5100;
+  text-align: center;
+  padding: 15px 19px;
+  text-decoration: none;
+  font-size: xx-large;
+  font-family: 'Barlow Condensed';
+  text-decoration: none;
+}
+li a:hover {
+  text-decoration: none;
+}
+
+
+
+/*Support Us*/
 .support-body {
     background-color: bluevolet;
     overflow-x: hidden;
@@ -20,33 +48,7 @@
     background-color: rgba(20, 19, 19, 0.5);
     /* z-index: 2; */
 }
-  
-  ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: none;
-  }
-  li{
-    float:left;
-    text-decoration: none;
-  }
-  li a{
-    display: block;
-    color:#ff5100;
-    text-align: center;
-    padding: 15px 19px;
-    text-decoration: none;
-    font-size: xx-large;
-    font-family: 'Barlow Condensed';
-    text-decoration: none;
-  }
-  li a:hover {
-    text-decoration: none;
-  }
-  
-  
+    
   #us {
     margin-left: 300px;
     padding-top: 150px;
@@ -62,30 +64,30 @@
     text-align: center;
     font-family: 'Barlow Condensed';
   }  
-  .intro {
+  .support-intro {
     text-align: center;
     font-family: 'Barlow Condensed';
   }
   
-  .intro .header {
+  .support-intro .support-header {
     font-size: 50px;
   }
-  .header1 {
+  .support-header1 {
     background: rgb(253, 166, 4);
     margin-right: 600px;
     margin-left: 600px;
     font-size: 50px;
   }
   
-  .intro p {
+  .support-intro p {
     font-size: 30px;
     color:  rgb(253, 166, 4);
   }
   
-  #book-day, #volunteer, #donate, #partner, #change, #fundrising, .volunteer, .partner, .change, .fundrising, .donate, .book-day {
+  #support-book-day, #support-volunteer, #support-donate, #support-partner, #support-change, #support-fundrising, .support-volunteer, .support-partner, .support-change, .support-fundrising, .support-donate, .support-book-day {
     margin-left: 200px;
   }
-   .img {
+   .support-img, .support-volun, .support-fund, .support-charge, .support-don, .support-part {
      text-decoration: none;
      color: rgb(253, 166, 4);
    }
@@ -95,6 +97,10 @@
      border: 5px solid rgb(253, 166, 4);
    }
 
+   /* Support end */
+
+
+   /* About us section */
 #cards {
   display: flex;
   justify-content: space-around;
@@ -152,6 +158,10 @@
   padding-top: 300px;
   letter-spacing: 5px;
 }
+/* About end section */
+
+
+/* What we do section */
 #whatBody{
   margin: 0;
   padding:0;
@@ -215,7 +225,7 @@
 #bigi{
   padding-left: 100px;
 }
-
+/* What we do end section */
 .footer4 {
   background-color: #303036 ;
   color: #D3D3D3;
