@@ -54,30 +54,23 @@
     font-size: 100px;
     color: rgb(253, 166, 4);
   }
-  
-#support {
-    padding-bottom: 110px;
-    color: rgb(253, 166, 4);
-    font-size: 30px;
-    text-align: center;
-    font-family: 'Barlow Condensed';
-  }  
-  .intro {
+
+  .support-intro {
     text-align: center;
     font-family: 'Barlow Condensed';
   }
   
-  .intro .header {
+  .support-intro .header {
     font-size: 50px;
   }
-  .header1 {
+  .support-header1 {
     background: rgb(253, 166, 4);
     margin-right: 600px;
     margin-left: 600px;
     font-size: 50px;
   }
   
-  .intro p {
+  .support-intro p {
     font-size: 30px;
     color:  rgb(253, 166, 4);
   }
